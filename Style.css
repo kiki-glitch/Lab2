@@ -1,0 +1,127 @@
+
+.Box1{
+	height: 500px;
+	text-align: center;
+}
+#Title{
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: Papyrus;
+	color: teal;
+	text-align: center;
+	font-size: 44px;
+}
+#LoginLink{
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+#LoginLink:hover{
+	text-decoration: underline;
+}
+#LoginLink:active{
+	text-decoration: none;
+}
+#LoginLink:visited{
+	color: red;
+	text-decoration: none;
+}
+
+#Welcome{
+	font-weight: bold;
+	text-align: right;
+	color: #2E8B57;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+#Details{
+	color: teal;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+#Mail{
+	color:lime;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#Name{
+	color:lime;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#profile{
+	width: 500px;
+	height: 350px;
+}
+
+#Pass{
+	color: lime;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#Address{
+	color: lime;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#Pchange{
+	color: darkkhaki;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#ChangePass{
+	cursor: pointer;
+	color: #008B8B;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 17px;
+}
+
+#ChangePass:hover{
+	text-decoration: underline;
+}
+#ChangePass:active{
+	text-decoration: none;
+}
+#ChangePass:visited{
+	color: #FF00FF;
+	text-decoration: none;
+}
+
+#Logout{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 17px;
+	cursor: pointer;
+	width: 130px; 
+	border-radius: 25px;
+	height: 40px;
+	text-align: center;
+	padding: 3px;
+	background-color: #FFE4E1;
+	color: #708090;
+	opacity: 0.7;
+}
+#Logout:hover{
+	opacity: 1;
+}
+
+#Logout:active{
+	transform: translateY(4px);
+}
